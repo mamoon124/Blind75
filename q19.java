@@ -12,7 +12,7 @@ class q19{
         return dp[n-1];
     }
     public static void main(String[] args) {
-        int[] nums = {2,7,9,3,1};
+        int[] nums = {9,1,2,9};
         System.out.println(HouseRobber(nums));
     }
 }
