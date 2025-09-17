@@ -14,7 +14,7 @@ public class q20 {
     public static int HouseRobber2(int[] nums){
         int n = nums.length;
         if(n<2){
-            return nums[0];
+            return nums[0]; 
         }
         int[] skipFirst = new int[n-1];
         int[] skipLast = new int[n-1];
